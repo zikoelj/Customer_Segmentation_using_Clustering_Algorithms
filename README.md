@@ -29,8 +29,7 @@ Ce projet vise à analyser et segmenter les clients d’un centre commercial en 
 ### 1. 📦 Prétraitement
 
 - Suppression des doublons et gestion des valeurs manquantes
-- Création de la colonne catégorielle `age_group` :
-  - Groupes : `Teen`, `Young Adult`, `Adult`, `Senior`
+- Création de la colonne catégorielle `age_group`
 - **Encodage des variables catégorielles** (`Gender`, `age_group`) via `LabelEncoder` ou encodage one-hot selon les besoins du modèle
 
 ### 2. 🧪 Tests Statistiques
